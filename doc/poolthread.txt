@@ -1,0 +1,10 @@
+ThreadPoolExecutor Documentation
+Purpose:
+The ThreadPoolExecutor is used to manage a pool of threads for handling multiple client connections concurrently. It simplifies thread management by limiting the number of threads and reusing them, avoiding the overhead of creating and destroying threads repeatedly.
+
+Why Use ThreadPoolExecutor?
+Efficiency: It avoids manually creating and managing individual threads for each client, which can lead to high memory and CPU usage if there are many simultaneous connections.
+
+Thread Reuse: Threads from the pool are reused, which reduces the overhead of constantly creating new threads.
+
+Scalability: By setting max_workers, the number of concurrent client threads can be controlled, preventing overloading the server with too many threads.
