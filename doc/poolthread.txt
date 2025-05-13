@@ -8,3 +8,6 @@ Efficiency: It avoids manually creating and managing individual threads for each
 Thread Reuse: Threads from the pool are reused, which reduces the overhead of constantly creating new threads.
 
 Scalability: By setting max_workers, the number of concurrent client threads can be controlled, preventing overloading the server with too many threads.
+
+
+
